@@ -13,7 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@mk01/react-hijri-date-picker": "^1.0.5",
+    "@mk01/react-hijri-date-picker": "^2.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

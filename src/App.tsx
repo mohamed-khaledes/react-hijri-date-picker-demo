@@ -1,12 +1,11 @@
-import Demo from './react-hiri-date-picker/demo'
+import Demo from "./demo";
 
 function App() {
-
   return (
     <div>
-        <Demo/>
+      <Demo />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
