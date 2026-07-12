@@ -246,6 +246,13 @@
   border-color: color-mix(in srgb, var(--brand-500) 40%, var(--border));
 }
 
+/* When a card is active (its picker is focused/open), lift it above sibling
+   cards so the popup isn't painted behind them. The hover `transform` turns a
+   card into a stacking context that would otherwise trap its popup. */
+.demo__card:focus-within {
+  z-index: 30;
+}
+
 .demo__card-head {
   display: flex;
   align-items: flex-start;
